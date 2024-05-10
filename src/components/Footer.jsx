@@ -4,7 +4,7 @@ import { footerLinks } from "../constants";
 
 import { Logo } from "../assets";
 const Footer = () => (
-  <section className={`flex  flex-col  bg-sky-700`}>
+  <section className={`flex w-full  flex-col  bg-sky-700`}>
     <div className={`flex md:flex-row  flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10 px-4">
         <h3
@@ -14,7 +14,7 @@ const Footer = () => (
                 lg:text-[53px]
                sm`}
         >
-          <img src={Logo} height={40} width={180} className="mr-20" />
+          <img src={Logo} height={40} width={180} className="mr-20 rounded" />
         </h3>
         <p className={`text-white mt-4 max-w-[312px] px-4`}>
           Keeping in view the excellent performance of the College in all
