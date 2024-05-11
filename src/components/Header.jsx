@@ -49,9 +49,12 @@ const TopHeader = () => {
         </div>
       </div>
       <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col  sm:flex-row justify-around">
-        <div className="flex ">
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5  sm:text-xl">
-            <FaPhone /> 92837383738
+        <div className="flex px-4 ">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5 text-[14px] sm:text-xl">
+            <FaPhone /> 9334900239
+          </p>
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5  text-[14px] sm:text-xl">
+            <FaPhone /> 7004699400
           </p>
           <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5 text-[12px] sm:text-xl">
             <FaEnvelope /> abhadegree@gmail.com

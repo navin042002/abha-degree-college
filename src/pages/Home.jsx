@@ -10,6 +10,7 @@ import "slick-carousel/slick/slick-theme.css";
 import { chooseUsData, TeachersData } from "../constants";
 import TeacherCard from "../components/shared/TeacherCard";
 import { FaCheck } from "react-icons/fa";
+import Contact from "../components/specific/Contact";
 const Home = () => {
   const settings = {
     dots: true,
@@ -49,16 +50,20 @@ const Home = () => {
       <SlideShow />
       <Notification />
       <div className="w-full ">
-         <div>
-             
-         </div>
+        <div></div>
       </div>
       <div className="flex px-10 sm:px-0  flex-col-reverse sm:flex-row justify-center gap-20 my-10">
-        <img
-          src={chairman}
-          className="w-[300px] rounded hover:scale-105 transition-all "
-          alt="chairman"
-        />
+        <div>
+          <img
+            src={chairman}
+            className="w-[300px] rounded hover:scale-105 transition-all "
+            alt="chairman"
+          />
+          <h1 className="my-2  text-2xl font-bold text-orange-700">
+            Satish Kumar{" "}
+          </h1>
+        </div>
+
         <div className="w-full sm:w-[40%]">
           <p className="text-xl text-orange-600 sm:text-2xl font-bold">
             About Chairman
@@ -107,8 +112,8 @@ const Home = () => {
           Why You Choose Us
         </h1>
         <p className="text-neutral-400 font-semibold text-xl my-10 text-center max-w-[600px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto
-          provident qui tempore natus quos quibusdam soluta at
+          Choosing a college is a significant decision, and there are several
+          compelling reasons why students opt for a particular institution.
         </p>
         <div className="px-10 mx-auto sm:px-[10%]  w-full my-10 grid grid-rows-1 sm:grid-cols-2 gap-7 gap-y-20">
           {chooseUsData.map((i) => (
@@ -126,6 +131,7 @@ const Home = () => {
           ))}
         </div>
       </div>
+      <Contact />
     </div>
   );
 };

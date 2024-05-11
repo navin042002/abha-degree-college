@@ -3,8 +3,9 @@ import { footerLinks } from "../constants";
 //import { styles } from "../../styles";
 
 import { Logo } from "../assets";
+import { FaWhatsapp } from "react-icons/fa";
 const Footer = () => (
-  <section className={`flex w-full  flex-col  bg-sky-700`}>
+  <section className={`flex w-full px-5 sm:px-20  flex-col  bg-sky-700`}>
     <div className={`flex md:flex-row  flex-col mb-8 w-full`}>
       <div className="flex-[1] flex flex-col justify-start mr-10 px-4">
         <h3
@@ -14,9 +15,9 @@ const Footer = () => (
                 lg:text-[53px]
                sm`}
         >
-          <img src={Logo} height={40} width={180} className="mr-20 rounded" />
+          <img src={Logo} height={40} width={180} className="sm:mr-20   rounded" />
         </h3>
-        <p className={`text-white mt-4 max-w-[312px] px-4`}>
+        <p className={`text-white mt-4 w-full sm:max-w-[422px] px-4`}>
           Keeping in view the excellent performance of the College in all
           aspects, the State Government and the University
         </p>
@@ -64,7 +65,7 @@ const Footer = () => (
           href="www.twitter.com"
           className="cursor-pointer text-[26px] text-white"
         >
-          <FaTwitter />
+          <FaWhatsapp/>
         </a>
         <a
           href="www.facebook.com"
