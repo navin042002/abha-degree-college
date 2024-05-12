@@ -6,6 +6,7 @@ import {
   FaInstagram,
   FaPhone,
   FaTwitter,
+  FaWhatsapp,
 } from "react-icons/fa";
 import { navItem } from "../constants";
 
@@ -48,19 +49,19 @@ const TopHeader = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col  sm:flex-row justify-around">
-        <div className="flex px-4 ">
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5 text-[14px] sm:text-xl">
+      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-3 items-center  sm:flex-row justify-around">
+        <div className="grid grid-cols-1 sm:grid-cols-3 px-4  items-center ">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-2 text-[14px] sm:text-xl">
             <FaPhone /> 9334900239
           </p>
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5  text-[14px] sm:text-xl">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-1  text-[14px] sm:text-xl">
             <FaPhone /> 7004699400
           </p>
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-5 text-[12px] sm:text-xl">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 text-[12px] sm:text-xl">
             <FaEnvelope /> abhadegree@gmail.com
           </p>
         </div>
-        <div className="flex gap-10  sm:my-0 my-5  items-center ">
+        <div className="flex    sm:my-0 my-5  items-center ">
           <FaFacebook
             onClick={() =>
               (window.location.href =
@@ -75,7 +76,7 @@ const TopHeader = () => {
             }
             className=" cursor-pointer underline text-sky-500 mx-5 text-4xl"
           />
-          <FaTwitter className=" cursor-pointer underline text-sky-500 mx-5 text-4xl" />
+          <FaWhatsapp className=" cursor-pointer underline text-sky-500 mx-5 text-4xl" />
         </div>
       </div>
     </div>
