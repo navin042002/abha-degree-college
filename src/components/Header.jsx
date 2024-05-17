@@ -5,13 +5,14 @@ import {
   FaFacebook,
   FaInstagram,
   FaPhone,
-  FaTwitter,
+  
   FaWhatsapp,
 } from "react-icons/fa";
+import { useNavigate } from "react-router-dom";
 import { navItem } from "../constants";
 
 const Header = () => {
-  //const navigation = useNavigation();
+  const navigation = useNavigate();
   return (
     <div className="h-full  w-full  ">
       <TopHeader />
@@ -21,7 +22,7 @@ const Header = () => {
             <li
               className="text-[11px] hover:underline hover:text-sky-600 transition-colors cursor-pointer sm:text-xl text-white "
               key={item.id}
-              onClick={() => window.location(item.slug)}
+              onClick={() => navigation(item.slug)}
             >
               {item.title}
             </li>
@@ -49,8 +50,8 @@ const TopHeader = () => {
           </p>
         </div>
       </div>
-      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-3 items-center  sm:flex-row justify-around">
-        <div className="grid grid-cols-1 sm:grid-cols-3 px-4  items-center ">
+      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-5 items-center  sm:flex-row justify-around">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  items-center ">
           <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-2 text-[14px] sm:text-xl">
             <FaPhone /> 9334900239
           </p>

@@ -5,7 +5,7 @@ const SlideShow = (className) => {
   return (
     <Slide >
       {slideImages.map((slideImage, index) => (
-        <div key={index} className={`h-[200px] sm:h-[400px] 
+        <div key={index} className={`h-[150px] sm:h-[400px] 
         flex justify-center  items-center ${className}`}>
           <img
             src={slideImage.url}

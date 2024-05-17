@@ -1,13 +1,27 @@
+import {
+  banner1,
+  gallary1,
+  gallary2,
+  gallary3,
+  gallary4,
+  gallary5,
+  gallary6,
+  gallary7,
+  gallary8,
+  galllary10,
+  galllary9,
+} from "../assets";
+
 export const navItem = [
   {
     id: 0,
     title: "Home",
-    slug: "/Home",
+    slug: "/",
   },
   {
     id: 1,
     title: "Contact",
-    slug: "/Caontact",
+    slug: "/Contact",
   },
   {
     id: 2,
@@ -17,12 +31,12 @@ export const navItem = [
   {
     id: 3,
     title: "About Us",
-    slug: "/about-us",
+    slug: "/about",
   },
   {
     id: 4,
     title: "Faculty",
-    slug: "/",
+    slug: "/faculty",
   },
   {
     id: 5,
@@ -33,12 +47,12 @@ export const navItem = [
 
 export const slideImages = [
   {
-    url: "https://img.freepik.com/free-vector/flat-horizontal-sale-banner-template-international-day-education_23-2151020158.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais",
+    url: banner1,
     caption: "Slide 1",
   },
 
   {
-    url: "https://img.freepik.com/free-psd/back-school-horizontal-banner-with-photo_23-2149047142.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais",
+    url: banner1,
     caption: "Slide 3",
   },
 ];
@@ -99,7 +113,6 @@ export const NoticeData = [
   },
 ];
 export const footerLinks = [
- 
   {
     title: "Community",
     links: [
@@ -144,7 +157,7 @@ export const TeachersData = [
   {
     id: 0,
     name: "Smita",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Professor In-charge",
     qualification: "M.A.",
     subject: "Psychology",
@@ -152,7 +165,7 @@ export const TeachersData = [
   {
     id: 1,
     name: "Santosh Kumar Yadav",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.Sc.",
     subject: "Chemistry",
@@ -160,7 +173,7 @@ export const TeachersData = [
   {
     id: 2,
     name: "Sweta Prabhat",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.A.",
     subject: "Sociology",
@@ -168,7 +181,7 @@ export const TeachersData = [
   {
     id: 3,
     name: "Vineeta Singh",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.com.",
     subject: "Commerce",
@@ -176,7 +189,7 @@ export const TeachersData = [
   {
     id: 4,
     name: "Rekha Tiwari",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.Sc.",
     subject: "Zoology",
@@ -184,7 +197,7 @@ export const TeachersData = [
   {
     id: 5,
     name: "Mukund Lal",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.A.",
     subject: "English",
@@ -192,7 +205,7 @@ export const TeachersData = [
   {
     id: 6,
     name: "Satish Kr Yadav",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.A.",
     subject: "English",
@@ -200,42 +213,101 @@ export const TeachersData = [
   {
     id: 7,
     name: "Sanjay Kr Kushwaha",
-    url: "https://uicookies.com/demo/theme/enlight/img/person_1.jpg",
+    url: "https://img.freepik.com/free-photo/portrait-young-male-professor-education-day_23-2150980043.jpg?size=626&ext=jpg&ga=GA1.1.1955298487.1711644435&semt=ais_user_b",
     role: "Lecturer",
     qualification: "M.Sc.",
     subject: "Math",
   },
 ];
 
-export const chooseUsData=[
+export const chooseUsData = [
   {
-    id:0,
-    title:"Academic Reputation",
-  paragraph:"Many students choose a college based on its academic reputation. A strong reputation indicates that the institution offers high-quality education, experienced faculty, and rigorous programs. "
+    id: 0,
+    title: "Academic Reputation",
+    paragraph:
+      "Many students choose a college based on its academic reputation. A strong reputation indicates that the institution offers high-quality education, experienced faculty, and rigorous programs. ",
   },
   {
-    id:1,
-    title:"Career Opportunities",
-    paragraph:"Attending college can significantly impact your career prospects. A college degree opens doors to a wider range of job opportunities and increases your chances of securing well-paying positions "
+    id: 1,
+    title: "Career Opportunities",
+    paragraph:
+      "Attending college can significantly impact your career prospects. A college degree opens doors to a wider range of job opportunities and increases your chances of securing well-paying positions ",
   },
   {
-    id:2,
-    title:"Job Qualifications",
-    paragraph:"College equips you with specialized knowledge and skills related to your field of study. These qualifications are essential for certain professions, such as medicine, engineering, law, and business. "
+    id: 2,
+    title: "Job Qualifications",
+    paragraph:
+      "College equips you with specialized knowledge and skills related to your field of study. These qualifications are essential for certain professions, such as medicine, engineering, law, and business. ",
   },
   {
-    id:4,
-    title:"	Job Security",
-    paragraph:"In today’s competitive job market, having a college degree provides greater job security. Employers value educated employees who can adapt to changing industry trends and contribute effectively to their organizations"
+    id: 4,
+    title: "	Job Security",
+    paragraph:
+      "In today’s competitive job market, having a college degree provides greater job security. Employers value educated employees who can adapt to changing industry trends and contribute effectively to their organizations",
   },
   {
-    id:5,
-    title:"Personal Growth and Development: ",
-    paragraph:" College is not just about academics; it’s also a time for personal growth. You’ll encounter diverse perspectives, engage in critical thinking, and develop essential life skills. "
+    id: 5,
+    title: "Personal Growth and Development: ",
+    paragraph:
+      " College is not just about academics; it’s also a time for personal growth. You’ll encounter diverse perspectives, engage in critical thinking, and develop essential life skills. ",
   },
   {
-    id:6,
-    title:"Networking Opportunities:",
-    paragraph:"College offers a unique environment for building social and professional networks. You’ll meet fellow students, professors, and industry professionals. "
+    id: 6,
+    title: "Networking Opportunities:",
+    paragraph:
+      "College offers a unique environment for building social and professional networks. You’ll meet fellow students, professors, and industry professionals. ",
   },
-]
+];
+
+export const gallaryImage = [
+  {
+    id: 0,
+    imgUrl: gallary1,
+    text: "Canteen Area",
+  },
+  {
+    id: 1,
+    imgUrl: gallary2,
+    text: " Area",
+  },
+  {
+    id: 2,
+    imgUrl: gallary3,
+    text: " Area",
+  },
+  {
+    id: 3,
+    imgUrl: gallary4,
+    text: "Canteen Area",
+  },
+  {
+    id: 4,
+    imgUrl: gallary5,
+    text: " Area",
+  },
+  {
+    id: 5,
+    imgUrl: gallary6,
+    text: " Area",
+  },
+  {
+    id: 6,
+    imgUrl: gallary7,
+    text: " Area",
+  },
+  {
+    id: 7,
+    imgUrl: gallary8,
+    text: " Area",
+  },
+  {
+    id: 8,
+    imgUrl: galllary9,
+    text: " Area",
+  },
+  {
+    id: 9,
+    imgUrl: galllary10,
+    text: " Area",
+  },
+];
