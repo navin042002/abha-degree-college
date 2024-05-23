@@ -98,7 +98,7 @@ const Home = () => {
           providing quality education in the fields of Arts, Science, and
           Commerce.
         </p>
-        <div className="px-0 sm:px-[10%] w-full my-10 flex gap-10">
+        <div className="px-0 sm:px-[10%] flex-col sm:flex-row  w-full my-10 flex gap-10">
           <div className="w-[450px] flex flex-col gap-4 px-10 py-10 border  border-sky-300 rounded-md  hover:-translate-y-5 transition-all duration-300">
             <h3 className="text-xl font-semibold text-sky-500">
               Comprehensive Arts Program

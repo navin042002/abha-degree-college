@@ -1,6 +1,8 @@
 import chairman from "./Chairman.jpeg";
 import Logo from "./Logo.png";
 import banner1 from "./banner/banner.jpeg"
+import banner2 from "./banner/banner2.jpg";
+import banner4 from "./banner/banner4.jpg";
 import gallary1 from "./gallary/gallary1.jpg";
 import gallary2 from "./gallary/gallary2.jpg";
 
@@ -12,6 +14,7 @@ import gallary7 from "./gallary/gallary7.jpg";
 import gallary8 from "./gallary/gallary8.jpg";
 import galllary9 from "./gallary/gallary9.jpg"
 import galllary10 from "./gallary/gallary10.jpg"
+
 export {
   chairman,
   Logo,
@@ -25,5 +28,7 @@ export {
   gallary8,
   galllary9,
   galllary10,
-  banner1
+  banner1,
+  banner2,
+  banner4
 };

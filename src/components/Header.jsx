@@ -5,7 +5,6 @@ import {
   FaFacebook,
   FaInstagram,
   FaPhone,
-  
   FaWhatsapp,
 } from "react-icons/fa";
 import { useNavigate } from "react-router-dom";
@@ -43,26 +42,26 @@ const TopHeader = () => {
             ABHA DEGREE COLLEGE , MUZAFFARPUR{" "}
           </h1>
           <h2 className="text-[11px] sm:text-xl font-semibold  text-center text-slate-600">
-            An Autonomous College under B.R. Ambedkar Bihar University.
+            An Affiliated College under B.R. Ambedkar Bihar University.
           </h2>
           <p className="text-[11px] sm:text-xl font-semibold  text-center text-slate-600">
             Dariyapur, Kafen , Bihar, India
           </p>
         </div>
       </div>
-      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-5 items-center  sm:flex-row justify-around">
+      <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-10 items-center  sm:flex-row justify-bewteen">
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  items-center ">
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-2 text-[14px] sm:text-xl">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-1 text-[14px] sm:text-xl">
             <FaPhone /> 9334900239
           </p>
           <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-1  text-[14px] sm:text-xl">
             <FaPhone /> 7004699400
           </p>
-          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 text-[12px] sm:text-xl">
+          <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 text-[10px] sm:text-xl">
             <FaEnvelope /> abhadegree@gmail.com
           </p>
         </div>
-        <div className="flex    sm:my-0 my-5  items-center ">
+        <div className="flex justify-center    sm:my-0 my-5  items-center ">
           <FaFacebook
             onClick={() =>
               (window.location.href =

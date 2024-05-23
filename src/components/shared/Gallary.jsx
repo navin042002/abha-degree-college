@@ -14,7 +14,11 @@ const Gallary = () => {
               src={i.imgUrl}
               alt={i.text}
               className=" hover:-translate-y-2 rounded 
-             transition-all duration-300 h-[250px]"
+             transition-all duration-300 h-[250px] rotate-12"
+              style={{
+                clipPath:
+                  "polygon(50% 0%, 90% 20%, 100% 60%, 75% 100%, 25% 100%, 0% 60%, 10% 20%)",
+              }}
             />
           </div>
         ))}

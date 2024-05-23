@@ -1,5 +1,7 @@
 import {
   banner1,
+  banner2,
+  banner4,
   gallary1,
   gallary2,
   gallary3,
@@ -21,12 +23,12 @@ export const navItem = [
   {
     id: 1,
     title: "Contact",
-    slug: "/Contact",
+    slug: "/contact",
   },
   {
     id: 2,
-    title: "Facilites",
-    slug: "/",
+    title: "Facility",
+    slug: "/facility",
   },
   {
     id: 3,
@@ -40,20 +42,24 @@ export const navItem = [
   },
   {
     id: 5,
-    title: "Syllabus",
-    slug: "/",
+    title: "Gallary",
+    slug: "/gallary",
   },
 ];
 
 export const slideImages = [
   {
     url: banner1,
-    caption: "Slide 1",
+    caption: "First banner ",
   },
 
   {
-    url: banner1,
+    url: banner2,
     caption: "Slide 3",
+  },
+  {
+    url: banner4,
+    caption: "Third banner",
   },
 ];
 export const NoticeData = [
