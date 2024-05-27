@@ -6,10 +6,8 @@ import {
   gallary2,
   gallary3,
   gallary4,
-  gallary5,
   gallary6,
   gallary7,
-  gallary8,
   galllary10,
   galllary9,
 } from "../assets";
@@ -39,11 +37,6 @@ export const navItem = [
     id: 4,
     title: "Faculty",
     slug: "/faculty",
-  },
-  {
-    id: 5,
-    title: "Gallary",
-    slug: "/gallary",
   },
 ];
 
@@ -288,7 +281,8 @@ export const gallaryImage = [
   },
   {
     id: 4,
-    imgUrl: gallary5,
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1EHdbX1JXxoKCuxoUb54N0_B9oYhglSlP&sz=w1000",
     text: " Area",
   },
   {
@@ -303,7 +297,8 @@ export const gallaryImage = [
   },
   {
     id: 7,
-    imgUrl: gallary8,
+    imgUrl:
+      "https://drive.google.com/thumbnail?id=1L_uBDIn9wIwouFLgoJZRpJEwHjGzoVYh&sz=w1000",
     text: " Area",
   },
   {
