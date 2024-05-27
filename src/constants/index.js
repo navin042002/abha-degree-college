@@ -1,7 +1,6 @@
 import {
   banner1,
-  banner2,
-  banner4,
+    banner4,
   gallary1,
   gallary2,
   gallary3,
@@ -46,10 +45,7 @@ export const slideImages = [
     caption: "First banner ",
   },
 
-  {
-    url: banner2,
-    caption: "Slide 3",
-  },
+
   {
     url: banner4,
     caption: "Third banner",

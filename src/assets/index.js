@@ -1,7 +1,7 @@
 import chairman from "./Chairman.jpeg";
 import Logo from "./Logo.png";
 import banner1 from "./banner/banner.png"
-import banner2 from "./banner/banner2.png";
+
 import banner4 from "./banner/banner4.jpg";
 import gallary1 from "./gallary/gallary1.jpg";
 import gallary2 from "./gallary/gallary2.jpg";
@@ -29,6 +29,6 @@ export {
   galllary9,
   galllary10,
   banner1,
-  banner2,
+  
   banner4
 };
