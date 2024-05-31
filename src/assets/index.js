@@ -1,6 +1,6 @@
 import chairman from "./Chairman.jpeg";
 import Logo from "./Logo.png";
-import banner1 from "./banner/banner.png"
+import banner1 from "./banner/banner.jpg"
 
 import banner4 from "./banner/banner4.jpg";
 import gallary1 from "./gallary/gallary1.jpg";
