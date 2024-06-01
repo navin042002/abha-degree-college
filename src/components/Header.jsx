@@ -50,7 +50,7 @@ const TopHeader = () => {
         </div>
       </div>
       <div className="flex w-full my-5 sm:my-0 sm:w-[50%] flex-col gap-10 items-center  sm:flex-row justify-bewteen">
-        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3  items-center ">
+        <div className="grid grid-cols-1  sm:grid-cols-2 md:grid-cols-3  items-center ">
           <p className="flex items-center gap-2 cursor-pointer underline text-sky-500 mx-1 text-[14px] sm:text-[18px]">
             <FaPhone /> 9334900239
           </p>

@@ -1,6 +1,6 @@
 import {
   banner1,
-    banner4,
+  banner4,
   gallary1,
   gallary2,
   gallary3,
@@ -37,6 +37,11 @@ export const navItem = [
     title: "Faculty",
     slug: "/faculty",
   },
+  {
+    id: 5,
+    title: "Syllabus",
+    slug: "/syllabus",
+  },
 ];
 
 export const slideImages = [
@@ -44,7 +49,6 @@ export const slideImages = [
     url: banner1,
     caption: "First banner ",
   },
-
 
   {
     url: banner4,
@@ -307,4 +311,87 @@ export const gallaryImage = [
     imgUrl: galllary10,
     text: " Area",
   },
+];
+
+export const syllabusData = [
+  {
+    id: 1,
+    title: "Arts ",
+    about: "Urdu Syllabus",
+    link: "https://drive.google.com/file/d/1TM68nAuGvzcV-dPm_oct4bsciYTAfg9l/preview",
+    category: "Arts",
+    
+  },
+  {
+    id: 2,
+    title: "Bachelor of Arts/Science Programme in STATISTICS",
+    about: "Course Structure of Four Year B.A./ B.Sc. Course in Statistics",
+    link: "https://drive.google.com/file/d/1tunYfMJGAUpd2p46wfgyzMio4tnO85Ha/preview",
+    category: "Arts",
+    
+  },
+  {
+    id: 6,
+    title: "Bachelor of Arts  in Sociology",
+    about: "Course Structure of Four Year B.A./ B.Sc. Course in Statistics",
+    link: "https://drive.google.com/file/d/1tunYfMJGAUpd2p46wfgyzMio4tnO85Ha/preview",
+    category: "Arts",
+    
+  },
+  {
+    id: 3,
+    title: "Commerce Syllabus 1",
+    about: "Introduction to Commerce Syllabus 1",
+    link: "https://drive.google.com/file/d/COMMERCE_SYLLABUS_1_LINK/preview",
+    category: "Commerce",
+  },
+  {
+    id: 4,
+    title: "Bachelor of Science Programme In Electronic Science ",
+    about: "Course Structure for 4 Year Undergraduate Programme under CBCS Systme ",
+    link: "https://drive.google.com/file/d/1Cu-R_4e-A7waH4qM9sLCTGekDFkwrRHg/preview",
+    category: "Science",
+  },
+  {
+    id: 5,
+    title: "Bachelor of Science Zoology ",
+    about: "Syllabus for 4 Year Undergraduate Course in Universities of Bihar. Bachelor of science , Zoology.",
+    link: "https://drive.google.com/file/d/1Fuz_Ayj5z3S5plYxuSwGZ0yCHjEym_9U/preview",
+    category: "Science",
+    
+  },
+  {
+    id: 7,
+    
+    title: "Bachelor of Arts In Sanskrit ",
+    about: "Syllabus for 4 Year Undergraduate Course in Universities of Bihar. Bachelor of Arts , Sanskrit.",
+    link: "https://drive.google.com/file/d/167aViMzwvK6Wcev-9c3zA7en1f62vjg0/preview",
+    category: "Arts",
+  },
+  {
+    id: 8,
+    
+    title: "Bachelor of Arts In Economics & Co-operative Management . ",
+    about: "Syllabus for 4 Year Undergraduate Course in Universities of Bihar. Bachelor of Arts , Co-operative Mangement.",
+    link: "https://drive.google.com/file/d/1-0eGRHEU-Q11T10muU6U0Zl04OBd39ab/preview",
+    category: "Arts",
+  },
+  {
+    id: 9,
+    
+    title: "Bachelor of Arts In Political Science . ",
+    about: "Regarding submission of proposed course structure and uniform syllabus of Political Science Semeester III to Semester VIII of 4 year under graduate.",
+    link: "https://drive.google.com/file/d/1HnZ82oxdGNikSerjLyuMKtbUQzQVE1jP/preview",
+    category: "Arts",
+  },
+  {
+    id: 10,
+    
+    title: "Bachelor of Arts in Pali",
+    about: "Regarding Submission of proposed course structure and uniform Syllabus of Pali from 3rd to 8th Semester 4 year Undergraduate courses of Pali (Arts)under CBCS System.",
+    link: "https://drive.google.com/file/d/1ZDSt6QbAdE6QKfiYiBbMd0RO48uJeXbL/preview",
+    category: "Arts",
+    
+  },
+  
 ];

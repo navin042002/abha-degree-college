@@ -9,6 +9,7 @@ import Faculity from './pages/Faculity.jsx'
 import Contact from './components/specific/Contact.jsx'
 import ContactUs from './pages/ContactUs.jsx'
 import Facility from './pages/Facilites.jsx'
+import SyllabusPage from './pages/Syllabus.jsx'
 
 const router=createBrowserRouter([
   {
@@ -35,7 +36,10 @@ const router=createBrowserRouter([
         path:"/facility",
         element:<Facility />
       },
-      
+      {
+        path:"/syllabus",
+        element:<SyllabusPage />
+      }
     ]
   }
 ])
